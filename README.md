@@ -3,11 +3,13 @@ A QR-code-like graphical representation of URLs that look like magic circles.
 
 ## Why?
 
-The idea of magic is really appealing, but sadly I haven't seen any practical applications of magic that technology can't do (or more that technology can do more than the "magic" I've seen people talk about).
+The idea of magic is really appealing, but sadly the magic that I've seen practiced in real life is more about spirituality and self fulfillment than having physical effects on the world.
 
 So if I can't get "real" magic from the ether, I'll need to create it from scratch using technology.
 
-The idea of this project is to have a more mystical interface to our technology. Writing programs with magic circles would be to crazy, so how about creating links for machines to load that code and execute it. Ideally, I'd like to create "something" for a machien to process (like a VR world), draw it using esoteric symbols and geometry, and have a machine turn that into what looks like magic.
+The idea of this project is to have a more mystical interface to our technology. You write some code for a machine to interpret, upload it somewhere, and turn the link to your code into a magic circle that people can draw by hand. Invoking the magic circle requires having a machine read it and execute it's code.
+
+The first application I want to target is VR worlds served from P2P networks. Ideally, I'd like to create a scene using [WebXR](https://aframe.io/), store it in a [P2P Website](https://docs.datproject.org/docs/intro), turn the link into a magic circle, stick the circle somewhere in real life, and have a [VR Headset](https://www.atmos.world/) load the virtual space from the internet for the user to experience.
 
 ## Implementation
 
